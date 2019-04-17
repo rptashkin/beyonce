@@ -12,13 +12,13 @@ This is a shameless theft/mashup of:
 1. [Brendan Hurr's idea](https://twitter.com/bhive01/status/663910585461968896) ([also Karthik's](https://twitter.com/_inundata/status/663910271212122112)) from [Noam Ross's tweet](https://twitter.com/noamross/status/663907049244196864)
 2. Code from [Karthik Ram's `wesanderson` palette](https://github.com/karthik/wesanderson)
 3. **Foremost**: the 130 amazing palettes from [beyoncepalettes.tumblr.com](http://beyoncepalettes.tumblr.com/)
-
+4. github.com/dill/beyonce (adding some coachella palettes at the request of https://github.com/ahmetz)
 **Note**: I am (red-green) colourblind. I have no idea whether these colours make sense for data visualisation. Maybe [use `viridis`](https://github.com/sjmgarnier/viridis) if you want people like me to be able to see your plots :)
 
 ## Installation
 
 ```R
-devtools::install_github("dill/beyonce")
+devtools::install_github("rptashkin/beyonce")
 ```
 
 ## Usage
