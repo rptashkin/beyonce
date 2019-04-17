@@ -53,8 +53,10 @@ beyonce_palette <- function(number, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", number = number)
 }
 
-#' @export
 #' 
+#' #' @name bey_coachella_palette
+#' @docType data
+NULL
 #' Beyoncé coachella palette generator
 #'
 #' Beyoncé Coachella 2019 colour palettes.
