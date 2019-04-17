@@ -36,8 +36,15 @@ for(i in 1:130) print(beyonce_palette(i))
 
 <img src="figure/all_palettes-1.png" title="" alt="" width="480" />
 
+```r
+par(mfrow=c(1,3))
+for(i in 1:3) print(bey_coachella_palette(i))
+```
+<img src="figure/coachella_palettes.png" title="" alt="" width="480" />
 
-
+<img src="data/coachella/beyonce-coachella-movie-1554729982-640x407.jpg" title="" alt="" width="480" />
+<img src="data/coachella/raven-varona-parkwood-entertainment.jpg" title="" alt="" width="480" />
+<img src="data/coachella/raven-varona-parkwood-entertainment2.jpg" title="" alt="" width="480" />
 
 ```r
 library(ggplot2)
