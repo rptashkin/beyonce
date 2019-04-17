@@ -40,7 +40,7 @@ for(i in 1:130) print(beyonce_palette(i))
 par(mfrow=c(1,3))
 for(i in 1:3) print(bey_coachella_palette(i))
 ```
-<img src="figure/coachella_palettes.png" title="" alt="" width="580" />
+<img src="figure/coachella_palettes.png" title="" alt="" width="580" height="500" />
 
 ```r
 library(ggplot2)
