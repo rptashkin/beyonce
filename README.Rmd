@@ -22,10 +22,12 @@ This is a shameless theft/mashup of:
 
 **Note**: I am (red-green) colourblind. I have no idea whether these colours make sense for data visualisation. Maybe [use `viridis`](https://github.com/sjmgarnier/viridis) if you want people like me to be able to see your plots :)
 
+This is a fork of github.com/dill/beyonce, with the goal of adding some 2019 coachella palettes at the request of [Ahmet Zehir](https://github.com/ahmetz)
+
 ## Installation
 
 ```R
-devtools::install_github("dill/beyonce")
+devtools::install_github("rptashkin/beyonce")
 ```
 
 ## Usage
@@ -39,10 +41,13 @@ par(mfrow=c(26,5))
 for(i in 1:130) print(beyonce_palette(i))
 ```
 
-```{r, all_palettes, fig.width=5, fig.height=26}
+```R
 par(mfrow=c(1,3))
 for(i in 1:3) print(bey_coachella_palette(i))
 ```
+
+<img src="figure/coachella_palettes1.png" title="" alt="" width="580" />
+<img src="figure/coachella_palettes2.png" title="" alt="" width="580" />
 
 ```{r, iris_ex, fig.height = 3}
 library(ggplot2)
