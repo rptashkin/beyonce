@@ -12,3 +12,4 @@ Suggests:
     ggplot2
 URL: https://github.com/dill/beyonce
 BugReports: https://github.com/dill/beyonce/issues
+RoxygenNote: 6.1.1

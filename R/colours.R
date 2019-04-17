@@ -1,7 +1,6 @@
 #' Complete list of palettes
 #'
 #' Use \code{\link{beyonce_palette}} to construct palettes of desired length.
-#' Use \code{\link{bey_coachella_palette}} to construct palettes of desired length.
 #'
 #' @name beyonce_palettes
 #' @docType data
@@ -54,7 +53,8 @@ beyonce_palette <- function(number, n, type = c("discrete", "continuous")) {
 }
 
 #' 
-#' #' @name bey_coachella_palette
+#' Use \code{\link{bey_coachella_palette}} to construct palettes of desired length.
+#' @name bey_coachella_palette
 #' @docType data
 NULL
 #' Beyoncé coachella palette generator
