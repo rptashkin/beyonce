@@ -52,6 +52,29 @@ beyonce_palette <- function(number, n, type = c("discrete", "continuous")) {
   structure(out, class = "palette", number = number)
 }
 
+
+bey_coachella_palette  <- function(name, n, type = c("discrete", "continuous")) {
+    type <- match.arg(type)
+    data("coachella_palettes")
+    pal <- coachella_palettes[[name]]
+    if (is.null(pal))
+        stop("Palette not found.")
+    
+    if (missing(n)) {
+        n <- length(pal)
+    }
+    
+    if (type == "discrete" && n > length(pal)) {
+        stop("Number of requested colors greater than what palette can offer")
+    }
+    
+    out <- switch(type,
+                  continuous = grDevices::colorRampPalette(pal)(n),
+                  discrete = pal[1:n]
+    )
+    structure(out, class = "palette", name = name)
+}
+
 #' @export
 print.palette <- function(x, ...) {
   n <- length(x)
