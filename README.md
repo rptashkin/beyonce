@@ -15,7 +15,7 @@ This is a shameless theft/mashup of:
 
 **Note**: I am (red-green) colourblind. I have no idea whether these colours make sense for data visualisation. Maybe [use `viridis`](https://github.com/sjmgarnier/viridis) if you want people like me to be able to see your plots :)
 
-This is a fork of github.com/dill/beyonce (adding some coachella palettes at the request of https://github.com/ahmetz)
+This is a fork of github.com/dill/beyonce, with the goal of adding some 2019 coachella palettes at the request of [Ahmet Zehir](https://github.com/ahmetz)
 
 ```R
 devtools::install_github("rptashkin/beyonce")
